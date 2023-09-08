@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to left , #B3CCE2 ,#d9ccc1);
+    color:#d9ccc1;
+}
+h1{
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    background: #005eb0;
+    text-emphasis-color: #d9ccc1;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    background: #005eb0;
+    text-emphasis-color: #d9ccc1;
+    text-align: left;
+}
+p{
+    font-size: 1.0rem;
+    font-family: Arial, sans-serif;
+    color:darkblue;
+    text-emphasis-color: #024059;
+}
+h3{
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    text-align: left;
+    color: darkblue;
+}
+pre{
+    color: black;
+    text-align: left;
+}
+.segundo-p{
+    font-family: 'Tilt Neon', cursive;
+    letter-spacing: 1.5;
+    text-align: justify;
+}
+.terceiro-p{
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+}
+.quarto-p{
+    color: darkslategray;
+    text-align: right;
+    font-style: italic;
+    
+}
+.strikethrough {
+    font-family: 'Tilt Neon', cursive;
+    position: relative;
+    display: inline-block;
+    word-break: break-all;
+  }
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: -0.5%;
+    top: 50%;
+    right: -240px;
+    border-top: 2px solid;
+    border-color: inherit;
+
+    
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+    transform:rotate(-3.1deg);
+  }
+sup{
+    font-size: 16px;
+    color: darkblue;
+}
+sub{
+    font-size: 16px;
+    color: darkblue;
+}
